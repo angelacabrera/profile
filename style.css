@@ -1,0 +1,113 @@
+
+body {
+    background-color: #EDF2F4;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+    line-height: 13px;
+}
+
+h1 {
+    color: #392B58;
+    font-family: 'Otomanopee One', sans-serif ;
+    font-size: 30px;
+    line-height: 13px;
+}
+
+h2 {
+    color: #457EAC;
+    font-family: 'Josefin Sans' ;
+    font-size: 25px;
+    line-height: 13px;
+}
+
+h3 {
+    color: #392B58;
+    font-family: 'Otomanopee One', sans-serif ;
+    font-size: 20px;
+    line-height: 13px;
+}
+
+p {
+    color: #000;
+    font-family: 'Josefin Sans' ;
+    font-size: 17px;
+    line-height: 13px;
+}
+
+h1, p, ul, div {
+    margin-bottom: 20px;
+}
+
+a, .lw {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a {
+    color: #457EAC;
+}
+
+.lw {
+    color: #EE4266;
+}
+
+a:hover {
+    color: #EE4266;
+}
+
+.lw:hover {
+    color: #457EAC;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.img-circle {
+    height: 120px;
+    max-height: 120px;
+    border: 1px solid #392B58;
+    border-radius: 50%;
+}
+
+h1, h2, h3, p, div {
+    text-align: center;
+}
+
+.img-circle {
+    display: block;
+    margin: auto;
+}
+
+.card-white {
+    background: #fff;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px lightgrey;
+    padding: 3px 3px; 
+}
+
+@media (max-width: 960px) {
+    .container {
+    width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+    width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+    width: 300px;
+    }
+  }
